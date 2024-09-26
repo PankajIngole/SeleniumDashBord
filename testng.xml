@@ -6,6 +6,7 @@
       <class name="com.Demo.test.LoginPage"/>
        <class name="com.Demo.test.LoginPage3"/>
       <class name="com.Demo.test.LoginPage2"/>
+      <class name="com.Demo.test.ReadAndExtract_Zip"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
