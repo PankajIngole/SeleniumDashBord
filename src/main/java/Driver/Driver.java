@@ -29,7 +29,7 @@ public final class Driver {
 	 
 	public static void initDriver(String browserName) throws IOException {
 		 
-		 String browser =System.getProperty("browser");
+		 String browser =System.getProperty("+");
 		 System.out.println(browser);
 		 
 		 

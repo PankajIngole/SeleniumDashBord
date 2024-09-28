@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-28T20:46:10 IST" name="Suite" finished-at="2024-09-28T20:46:32 IST" duration-ms="22581">
+  <suite started-at="2024-09-28T20:53:41 IST" name="Suite" finished-at="2024-09-28T20:53:59 IST" duration-ms="17877">
     <groups>
     </groups>
-    <test started-at="2024-09-28T20:46:10 IST" name="Test" finished-at="2024-09-28T20:46:32 IST" duration-ms="22581">
+    <test started-at="2024-09-28T20:53:41 IST" name="Test" finished-at="2024-09-28T20:53:59 IST" duration-ms="17877">
       <class name="com.Demo.test.LoginPage3">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Demo.test.LoginPage3@2e005c4b]" started-at="2024-09-28T20:46:10 IST" name="SetUp" finished-at="2024-09-28T20:46:16 IST" duration-ms="6151" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Demo.test.LoginPage3@7d4f9aae]" started-at="2024-09-28T20:53:41 IST" name="SetUp" finished-at="2024-09-28T20:53:45 IST" duration-ms="3888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="GetUserCredential()[pri:1, instance:com.Demo.test.LoginPage3@2e005c4b]" started-at="2024-09-28T20:46:16 IST" name="GetUserCredential" finished-at="2024-09-28T20:46:17 IST" duration-ms="1031" status="PASS">
+        <test-method signature="GetUserCredential()[pri:1, instance:com.Demo.test.LoginPage3@7d4f9aae]" started-at="2024-09-28T20:53:45 IST" name="GetUserCredential" finished-at="2024-09-28T20:53:47 IST" duration-ms="2013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUserCredential -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demo.test.LoginPage3@2e005c4b]" started-at="2024-09-28T20:46:17 IST" name="tearDown" finished-at="2024-09-28T20:46:17 IST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demo.test.LoginPage3@7d4f9aae]" started-at="2024-09-28T20:53:47 IST" name="tearDown" finished-at="2024-09-28T20:53:47 IST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Demo.test.LoginPage3 -->
       <class name="com.Demo.test.LoginPage2">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Demo.test.LoginPage2@4567f35d]" started-at="2024-09-28T20:46:10 IST" name="SetUp" finished-at="2024-09-28T20:46:13 IST" duration-ms="3395" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Demo.test.LoginPage2@72e5a8e]" started-at="2024-09-28T20:53:41 IST" name="SetUp" finished-at="2024-09-28T20:53:45 IST" duration-ms="3812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="GetUserCredential()[pri:1, instance:com.Demo.test.LoginPage2@4567f35d]" started-at="2024-09-28T20:46:13 IST" name="GetUserCredential" finished-at="2024-09-28T20:46:15 IST" duration-ms="2154" status="PASS">
+        <test-method signature="GetUserCredential()[pri:1, instance:com.Demo.test.LoginPage2@72e5a8e]" started-at="2024-09-28T20:53:45 IST" name="GetUserCredential" finished-at="2024-09-28T20:53:47 IST" duration-ms="2093" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUserCredential -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demo.test.LoginPage2@4567f35d]" started-at="2024-09-28T20:46:15 IST" name="tearDown" finished-at="2024-09-28T20:46:16 IST" duration-ms="598" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demo.test.LoginPage2@72e5a8e]" started-at="2024-09-28T20:53:47 IST" name="tearDown" finished-at="2024-09-28T20:53:47 IST" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Demo.test.LoginPage2 -->
       <class name="com.Demo.test.LoginPage">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Demo.test.LoginPage@61df66b6]" started-at="2024-09-28T20:46:11 IST" name="SetUp" finished-at="2024-09-28T20:46:15 IST" duration-ms="4366" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Demo.test.LoginPage@d5b810e]" started-at="2024-09-28T20:53:42 IST" name="SetUp" finished-at="2024-09-28T20:53:45 IST" duration-ms="2860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="GetUserCredential(java.util.Map)[pri:1, instance:com.Demo.test.LoginPage@61df66b6]" started-at="2024-09-28T20:46:15 IST" name="GetUserCredential" data-provider="readExcelData" finished-at="2024-09-28T20:46:17 IST" duration-ms="1934" status="PASS">
+        <test-method signature="GetUserCredential(java.util.Map)[pri:1, instance:com.Demo.test.LoginPage@d5b810e]" started-at="2024-09-28T20:53:45 IST" name="GetUserCredential" data-provider="readExcelData" finished-at="2024-09-28T20:53:47 IST" duration-ms="1757" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,15 +50,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUserCredential -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demo.test.LoginPage@61df66b6]" started-at="2024-09-28T20:46:17 IST" name="tearDown" finished-at="2024-09-28T20:46:17 IST" duration-ms="138" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demo.test.LoginPage@d5b810e]" started-at="2024-09-28T20:53:47 IST" name="tearDown" finished-at="2024-09-28T20:53:47 IST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Demo.test.LoginPage@61df66b6]" started-at="2024-09-28T20:46:17 IST" name="SetUp" finished-at="2024-09-28T20:46:21 IST" duration-ms="4213" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Demo.test.LoginPage@d5b810e]" started-at="2024-09-28T20:53:47 IST" name="SetUp" finished-at="2024-09-28T20:53:50 IST" duration-ms="2540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="GetUserCredential(java.util.Map)[pri:1, instance:com.Demo.test.LoginPage@61df66b6]" started-at="2024-09-28T20:46:21 IST" name="GetUserCredential" data-provider="readExcelData" finished-at="2024-09-28T20:46:27 IST" duration-ms="5747" status="PASS">
+        <test-method signature="GetUserCredential(java.util.Map)[pri:1, instance:com.Demo.test.LoginPage@d5b810e]" started-at="2024-09-28T20:53:50 IST" name="GetUserCredential" data-provider="readExcelData" finished-at="2024-09-28T20:53:56 IST" duration-ms="5759" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,15 +69,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUserCredential -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demo.test.LoginPage@61df66b6]" started-at="2024-09-28T20:46:27 IST" name="tearDown" finished-at="2024-09-28T20:46:27 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demo.test.LoginPage@d5b810e]" started-at="2024-09-28T20:53:56 IST" name="tearDown" finished-at="2024-09-28T20:53:56 IST" duration-ms="146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Demo.test.LoginPage@61df66b6]" started-at="2024-09-28T20:46:27 IST" name="SetUp" finished-at="2024-09-28T20:46:31 IST" duration-ms="4130" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.Demo.test.LoginPage@d5b810e]" started-at="2024-09-28T20:53:56 IST" name="SetUp" finished-at="2024-09-28T20:53:58 IST" duration-ms="2389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="GetUserCredential(java.util.Map)[pri:1, instance:com.Demo.test.LoginPage@61df66b6]" started-at="2024-09-28T20:46:31 IST" name="GetUserCredential" data-provider="readExcelData" finished-at="2024-09-28T20:46:32 IST" duration-ms="753" status="PASS">
+        <test-method signature="GetUserCredential(java.util.Map)[pri:1, instance:com.Demo.test.LoginPage@d5b810e]" started-at="2024-09-28T20:53:58 IST" name="GetUserCredential" data-provider="readExcelData" finished-at="2024-09-28T20:53:59 IST" duration-ms="727" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,13 +88,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetUserCredential -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demo.test.LoginPage@61df66b6]" started-at="2024-09-28T20:46:32 IST" name="tearDown" finished-at="2024-09-28T20:46:32 IST" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Demo.test.LoginPage@d5b810e]" started-at="2024-09-28T20:53:59 IST" name="tearDown" finished-at="2024-09-28T20:53:59 IST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Demo.test.LoginPage -->
       <class name="com.Demo.test.ReadAndExtract_Zip">
-        <test-method signature="extractZip()[pri:0, instance:com.Demo.test.ReadAndExtract_Zip@5ffead27]" started-at="2024-09-28T20:46:10 IST" name="extractZip" finished-at="2024-09-28T20:46:10 IST" duration-ms="41" status="PASS">
+        <test-method signature="extractZip()[pri:0, instance:com.Demo.test.ReadAndExtract_Zip@54e1c68b]" started-at="2024-09-28T20:53:41 IST" name="extractZip" finished-at="2024-09-28T20:53:41 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extractZip -->
