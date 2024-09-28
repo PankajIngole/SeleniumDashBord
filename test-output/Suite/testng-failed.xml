@@ -2,12 +2,27 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="methods" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
     <classes>
+      <class name="com.Demo.test.LoginPage3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+          <include name="GetUserCredential"/>
+        </methods>
+      </class> <!-- com.Demo.test.LoginPage3 -->
+      <class name="com.Demo.test.LoginPage2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="GetUserCredential"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.Demo.test.LoginPage2 -->
       <class name="com.Demo.test.LoginPage">
         <methods>
           <include name="tearDown"/>
           <include name="SetUp"/>
-          <include name="GetUserCredential" invocation-numbers="1"/>
+          <include name="GetUserCredential"/>
         </methods>
       </class> <!-- com.Demo.test.LoginPage -->
     </classes>

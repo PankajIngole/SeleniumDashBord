@@ -13,6 +13,8 @@
                 <suiteXmlFiles>
                     <suiteXmlFile>C:\Users\z004krnn\Desktop\AMN\FrameWorke\DashBord_Selenium\testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
+                
+                
             </configuration>
         </plugin>
     </plugins>

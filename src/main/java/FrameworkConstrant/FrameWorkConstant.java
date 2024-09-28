@@ -11,6 +11,7 @@ public class  FrameWorkConstant {
 		private static final String ChromeDriverPath= ResourcePath+"chromedriver.exe";	
 		private static final String ApplicationURL="https://www.saucedemo.com/";
 		private static final String ExclePath="C:\\Users\\z004krnn\\Desktop\\AMN\\FrameWorke\\DashBord_Selenium\\src\\main\\resources\\Book1.xlsx";
+		private static final String EdgeDriverPath=ResourcePath+"msedgedriver.exe";
 			
 		public static String getChromeDriverPath() {
 			
@@ -24,5 +25,8 @@ public class  FrameWorkConstant {
   			
   			return ExclePath;
   		}
+          public static String getEdgeDriverPath() {
+  			
+  			return EdgeDriverPath;
 	}
-
+}
